@@ -5,8 +5,10 @@ class SuccessScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text('成功!!'),
+    return const Scaffold(
+      body: Center(
+        child: Text('成功!!'),
+      ),
     );
   }
 }
